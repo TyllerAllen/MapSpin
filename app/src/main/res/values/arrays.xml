@@ -1,0 +1,57 @@
+<resources>
+    <!-- Colour Preference -->
+    <string-array name="colour_entries">
+        <item>Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="colour_values">
+        <item>Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="trying_to_do_values">
+        <item options="eat_options">Eat Something</item>
+        <item options="do_something_options">Do Something</item>
+        <item options="party_options">Party Somewhere</item>
+        <item options="relax_options">Relax</item>
+    </string-array>
+
+    <string-array name="eat_options">
+        <item value="bakery">Bakery</item>
+        <item value="cafe">Cafe</item>
+        <item value="convenience_store">Convenience Store</item>
+        <item value="grocery_or_supermarket">Grocery Store</item>
+        <item value="meal_delivery">Delivery</item>
+        <item value="meal_takeaway">Takeout</item>
+        <item value="restaurant">Restaurant</item>
+    </string-array>
+
+    <string-array name="do_something_options">
+        <item value="amusement_park">Amusement Park</item>
+        <item value="aquarium">Aquarium</item>
+        <item value="art_gallery">Art Gallery</item>
+        <item value="bowling_alley">Bowling</item>
+        <item value="movie_theater">Movie Theatre</item>
+        <item value="museum">Museum</item>
+        <item value="shopping_mall">Mall</item>
+        <item value="stadium">Stadium</item>
+        <item value="tourist_attraction">Tour</item>
+        <item value="zoo">Zoo</item>
+    </string-array>
+
+    <string-array name="party_options">
+        <item value="bar">Bar</item>
+        <item value="casino">Casino</item>
+        <item value="liquor_store">Liquor Store</item>
+        <item value="night_club">Night Club</item>
+    </string-array>
+
+    <string-array name="relax_options">
+        <item value="beauty_salon">Beauty Salon</item>
+        <item value="park">Park</item>
+        <item value="spa">Spa</item>
+    </string-array>
+</resources>

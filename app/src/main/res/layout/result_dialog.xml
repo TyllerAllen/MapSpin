@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_light" />
+
+    <TextView
+        android:id="@+id/textStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/spin_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_button_background"
+            android:text="SPIN AGAIN"
+            android:textColor="#FFFFFF"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+             />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/blacklist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_button_background"
+            android:text="BLACKLIST"
+            android:textColor="#FFFFFF"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+             />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/directions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_button_background"
+            android:text="DIRECTIONS"
+            android:textColor="#FFFFFF"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+             />
+    </LinearLayout>
+
+</LinearLayout>

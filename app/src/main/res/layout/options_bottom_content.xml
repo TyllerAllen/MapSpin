@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/bottom_sheet_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingBottom="20sp"
+        android:text="Filtering Options"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:text="What are you trying to do?" />
+
+    <Spinner
+        android:id="@+id/placeTypeDropdown"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:text="More Specific" />
+
+    <Spinner
+        android:id="@+id/refinedPlaceTypeDropdown"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:text="Price Level" />
+
+
+    <RelativeLayout
+        android:id="@+id/priceLevelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/activePriceLevel"
+            android:layout_width="50sp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Any" />
+
+        <com.wlu.cp470.group12.mapspin.IntervalSeekBar
+            android:id="@+id/priceSeekBarWithIntervals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/activePriceLevel" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:text="User Ratings" />
+
+    <RelativeLayout
+        android:id="@+id/reviewLevelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/activeRatingLevel"
+            android:layout_width="50sp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Any" />
+
+        <com.wlu.cp470.group12.mapspin.IntervalSeekBar
+            android:id="@+id/ratingSeekBarWithIntervals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/activeRatingLevel"
+            android:paddingLeft="4dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/applyFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Apply Filters" />
+
+    <Button
+        android:id="@+id/btn_list_places"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="List Places" />
+
+</LinearLayout>

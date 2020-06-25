@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MapSpin</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="place_type">
+        <item>Bar</item>
+        <item>Restaurant</item>
+        <item>Recreation</item>
+        <item>Movie Theaters</item>
+        <item>Parks</item>
+    </string-array>
+    <string name="place_prompt">Place Type</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="appearance_header">Appearance</string>
+    <string name="location_header">Location</string>
+
+    <!-- Appearance Preferences -->
+    <string name="color_title">Change colour scheme</string>
+    <string name="color_summary">Allows you to set a different colour scheme</string>
+    <string name="default_color">Default</string>
+    <string name="toggle_ani">Turn off animations</string>
+    <string name="toggle_ani_summary_off">Turn off spinner animations</string>
+
+    <!-- Location Preferences -->
+    <string name="blacklist_title">Blacklist Locations</string>
+    <string name="blacklist_summary">Add to a list of locations that you do not want to get from spins"</string>
+
+    <!-- Miscellaneous Preferences -->
+    <string name="note_title">Notes</string>
+    <string name="note_summary">Enter notes you would like to keep on locations</string>
+
+    <!-- Information Preferences -->
+    <string name="help_title">Help</string>
+    <string name="help_summary">Information on how to use the application</string>
+    <string name="about_title">About</string>
+    <string name="about_summary">Author and version information</string>
+
+    <string name="about_info">Version 1.0 by Group 12</string>
+    <string name="help_dialog_title">Help</string>
+    <string name="help_dialog_message">This app allows you to select a region on a map by swiping on the green circle to spin a spinner that selects a place to go to. You can use location filters and categories to narrow down the selection. Have fun and be safe!</string>
+    <string name="dialog_ok">OK</string>
+
+    <string name="warning_dialog_title">Warning</string>
+    <string name="warning_dialog_message">Are you sure you want to reset the blacklist?</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+
+    <string name="blacklist_reset">Blacklist Reset</string>
+    <string name="spin_prompt">Spin the arrow first</string>
+
+    <string name="dialog_cancel">Cancel</string>
+    <string name="enter_btn">Enter</string>
+</resources>
